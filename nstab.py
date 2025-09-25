@@ -1,8 +1,9 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """  Tables of numbers and ascii symbols (nstub.py).
 
-This is a simple Linux console application that displays the values of numbers
-from 0 to 15 and ASCII characters in binary, decimal and hexadecimal formats.
+It is a simple Linux console application created in python3 that displays
+the values of numbers from 0 to 15 and ASCII characters in binary, decimal
+and hexadecimal formats.
 
 Copyright 2025 Aleksandr Senkevich <savtog@mail.ru>
 
