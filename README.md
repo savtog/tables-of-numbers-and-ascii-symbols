@@ -4,8 +4,10 @@ It is a simple Linux console application created in python3 that displays the va
 Python3 must be installed on the computer.
 ## Usage 
 After downloading, you need to run:
+	
 	chmod +x nstub.py
 Launch the program:
+
 	./nstub.py
 ## License
 This program is free software: you can redistribute it and/or modify
