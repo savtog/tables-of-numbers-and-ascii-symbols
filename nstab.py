@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""  Tables of numbers and ascii symbols (nstub.py).
+"""  Tables of numbers and ascii symbols (nstab.py).
 
 It is a simple Linux console application created in python3 that displays
 the values of numbers from 0 to 15 and ASCII characters in binary, decimal
@@ -68,12 +68,14 @@ def main(args):
     print_table_numbers()
     print_table_ascii()
 
+    return 0
+
 
 def print_table_numbers():
     """Shows numbers from 0 to 15 in binary,
     decimal and hexadecimal formats."""
 
-    title = '\n\tTable of number\n\t' + '-' * 16
+    title = '\n\tTable of numbers\n\t' + '-' * 16
     print(title)
 
     tab_title = 'Bin\tDec\tHex\t' * 2
